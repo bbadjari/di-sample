@@ -75,6 +75,13 @@ or stubbed when writing automated tests, thereby making certain kinds of testing
 Modules
 -------
 
+The following modules make up the entirety of this application:
+
+![Modules](Modules.png "Module Dependency Diagram")
+
+The arrows indicate the direction of dependencies between modules. For example, the `di-sample-services-contracts` module has no outgoing dependencies (it depends on no other modules) while the
+`di-sample-console` module has no incoming dependencies (no other modules depend on it).
+
 ### di-sample-services-contracts ###
 
 Contains interfaces that define dependencies used throughout the rest of the application.
